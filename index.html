@@ -42,7 +42,16 @@
                     <textarea class="main__item main__item--resize" name="request" cols="30" rows="10" placeholder="Что у вас случилось? Напишите нам!"></textarea>
                 </form>
             </div>
-            
+            <div class="modal__footer footer">
+                <div class="footer__captcha">
+                    <form class="footer__captcha-content">
+                        <input class="footer__input" type="text" id="text">
+                        <label class="footer__label" for="text">Введите код на картинке справа</label>
+                    </form>
+                    <img class="footer__img" src="/assets/images/capcha.png" alt="captcha">
+                </div>
+                <button class="footer__btn">Отправить</button>
+            </div>
         </div>
     </div>
 </body>
